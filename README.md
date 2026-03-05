@@ -21,12 +21,6 @@
 
 <br />
 
-## 🛠️ 기술 스택
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-
-<br />
-
 ## 📂 폴더 구조
 
 ```text
