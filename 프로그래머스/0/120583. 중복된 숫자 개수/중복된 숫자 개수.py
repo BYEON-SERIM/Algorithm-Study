@@ -5,4 +5,6 @@ def solution(array, n):
         if(ch == n):
             answer += 1
     
+    # answer = array.count(n)    
+    
     return answer
