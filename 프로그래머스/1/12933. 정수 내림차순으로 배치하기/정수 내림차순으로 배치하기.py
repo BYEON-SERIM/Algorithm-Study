@@ -1,11 +1,7 @@
 def solution(n):
-    answer = 0
     
-    numList = []
+    nStr = [i for i in str(n)]
     
-    for num in str(n):
-        numList.append(num)
+    nStr.sort(reverse=True)
     
-    reverseNum = sorted(numList, reverse=True)
-    
-    return int("".join(reverseNum))
+    return int("".join(nStr))
