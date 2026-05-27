@@ -1,10 +1,5 @@
 def solution(x):
-    answer = True
+    xStr = [int(num) for num in str(x)]
+    xSum = sum(xStr)
     
-    sumNum = []
-    
-    for num in str(x):
-        sumNum.append(int(num))
-    
-    
-    return True if x % sum(sumNum) == 0 else False
+    return True if x%xSum == 0 else False
