@@ -1,5 +1,4 @@
 def solution(n):
-    nStr = str(n)
-    reN = nStr[::-1]
+    nStr = [int(i) for i in str(n)]
     
-    return [int(num) for num in reN]
+    return nStr[::-1]
