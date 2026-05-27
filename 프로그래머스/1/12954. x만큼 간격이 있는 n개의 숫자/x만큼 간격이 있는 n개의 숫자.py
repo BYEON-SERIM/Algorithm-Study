@@ -1,12 +1,8 @@
 def solution(x, n):
     answer = []
-    
     answer.append(x)
-    num = x
     
-    while len(answer) <= n-1:
-        num += x
-        answer.append(num)
-        
-    
+    for _ in range(n-1):
+        answer.append(answer[-1]+x)
+
     return answer
