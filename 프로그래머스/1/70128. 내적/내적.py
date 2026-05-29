@@ -1,7 +1,7 @@
 def solution(a, b):
     answer = 0
     
-    for aa, bb in zip(a,b):
-        answer += aa*bb
+    for x,y in zip(a,b):
+        answer += x*y
     
     return answer
