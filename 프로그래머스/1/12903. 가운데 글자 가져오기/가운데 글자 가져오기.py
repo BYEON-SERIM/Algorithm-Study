@@ -1,11 +1,8 @@
 def solution(s):
-    answer = ''
+    idx = len(s)//2 
     
     if len(s)%2 == 0:
-        index = len(s)//2
-        answer = s[index-1:index+1]
+        return s[idx-1:idx+1]
     else:
-        index = len(s)//2
-        answer = s[index]
-    
-    return answer
+        return s[idx]
+        
