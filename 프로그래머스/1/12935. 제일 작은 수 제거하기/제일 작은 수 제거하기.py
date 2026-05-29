@@ -1,11 +1,5 @@
 def solution(arr):
-    answer = 0
+
+    arr.remove(min(arr))
     
-    if len(arr) == 1:
-        return [-1]
-    
-    minNum = min(arr)
-    
-    arr.remove(minNum)
-    
-    return arr
+    return [-1] if len(arr) == 0 else arr
