@@ -1,9 +1,6 @@
 def solution(s):
-    arr = []
+    arr = list(s)
     
-    for ch in s:
-        arr.append(ch)
-    
-    arr.sort(reverse=True)
+    arr = sorted(arr, reverse=True)
     
     return "".join(arr)
