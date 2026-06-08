@@ -1,8 +1,8 @@
 from itertools import combinations
 
 def solution(number):
-    answer = 0
     
-    group = list(combinations(number, 3))
+    items = combinations(number, 3)
     
-    return sum(1 for sumZero in group if sum(sumZero) == 0)
+    
+    return sum(1 for item in items if sum(item) == 0) 
