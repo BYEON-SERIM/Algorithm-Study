@@ -1,15 +1,7 @@
 def solution(food):
-    answer = []
+    answer = ''
     
-    for i, n in enumerate(food):
-        if i == 0:
-            continue;
-        else:
-            answer += str(i)*(n//2)
-
-    reAnswer = answer[::-1]
+    for i, n in enumerate(food[1:]):
+        answer += str(i+1)*(n//2) 
     
-    answer.append('0')
-    
-    
-    return "".join(answer+reAnswer)
+    return answer +"0"+ answer[::-1]
